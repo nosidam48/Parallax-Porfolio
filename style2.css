@@ -147,3 +147,8 @@ footer {
     left: 550px;
     bottom: 20px;
 }
+
+#about-me {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px
+}
