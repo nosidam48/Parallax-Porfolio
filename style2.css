@@ -139,17 +139,13 @@ footer {
 }
 
 #linkedIcon {
-    margin-top: 22px
+
+    width: 20%;
+    left: 550px;
+    bottom: 20px;
 }
 
-.resume {
-    margin-right: 5px
-}
-
-#USA {
-    margin-left: 10px
-}
-
-#GER {
-    margin-top: 2px
+#about-me {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px
 }
