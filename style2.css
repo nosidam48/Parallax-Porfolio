@@ -139,10 +139,11 @@ footer {
 }
 
 #linkedIcon {
+    margin-top: 5px
+}
 
-    width: 20%;
-    left: 550px;
-    bottom: 20px;
+#USA {
+    margin-left: 10px
 }
 
 #about-me {
