@@ -31,9 +31,9 @@ h4 {
     padding: 30px;
 }
 
-#pic {
+/* #pic {
     width: 184px;
-}
+} */
 
 body {
     background-image: linear-gradient(to right top, #00a6ff, #009ad3, #00889e, #007368, #005c3b);
@@ -83,6 +83,10 @@ li {
 .data {
     font-size: 20px;
     color: white;
+}
+
+#bio {
+    font-family: "Ubuntu", sans-serif;
 }
 
 #resume {
@@ -139,11 +143,11 @@ footer {
 }
 
 #linkedIcon {
-    margin-top: 5px
+    margin-top: 23px
 }
 
 #USA {
-    margin-left: 10px
+    margin-left: 30px
 }
 
 #about-me {
