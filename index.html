@@ -10,7 +10,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
-    <link rel="manifest" href="./assets/images/site.webmanifest">
+    <link rel="manifest" href="./assets/site.webmanifest">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -32,7 +32,7 @@
                     <li><a href="https://github.com/nosidam48" target="_blank"><img id="gitIcon" src="assets/images/Octocat.png"></a></li>
                     <li><a href="https://www.linkedin.com/in/madison-tift-281843170/" target="_blank"><img
                                 id="linkedIcon" src="assets/images/Logo-White-94px-TM.png"></a></li>
-                    <li><a href="https://bit.ly/cv_madison_tift" class="hoverable resume" target="_blank">Resume</a></li>
+                    <li><a href="assets/Resume.pdf" id="nav-resume" class="hoverable resume" target="_blank">Resume</a></li>
                 </ul>
             </div>
         </nav>
@@ -48,7 +48,7 @@
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
-                            <p id="bio">Full stack web developer based in Hamburg, Germany specializing in Javascript, Node and React. Recent graduate of the University of Central Florida Full Stack Bootcamp eager to put new found skills to good use and continue constantly learning in this ever evolving field. Enjoys utilizing unique skill-set gained from a liberal arts education as well as various jobs in customer service, including management roles, in order to problem solve efficiently and integrate seamlessly into collaborative roles. Passionate about finding different approaches to problem solving and collaborating with others in order to grow quickly and push to program as efficiently as possible.
+                            <p id="bio">Full stack web developer based in Hamburg, Germany specializing in React, TypeScript, Node.js, and AWS. Several years of professional experience building complex web products — migrating legacy PHP to modern React/TypeScript stacks, creating component libraries, and deploying reliable full-stack systems with automated workflows on AWS. Proficient with Jest, Cypress, Chakra UI, and Next.js on the frontend, with backend work spanning Node.js, Java, and Go. UCF Full Stack Bootcamp graduate accustomed to agile scrum teams and cross-functional collaboration. Passionate about continuous learning and shipping well-tested, maintainable code.
                             </p>
                         </div>
                     </div>
@@ -62,51 +62,71 @@
         </div>
     </div>
     <div class="section">
-        <div id="port" class="container">
+        <div id="professional" class="container">
 
-            <h4>Portfolio</h4>
+            <h4 id="professional-title">Professional Projects</h4>
             <div class="row">
                 <div class="col s12 m6 pad" id="pad">
                     <div class="card">
                         <div class="card-image hoverable">
-                            <a href="http://cdi2019.herokuapp.com/" target="_blank">
-                                <img class="image" src="assets/images/CDI.png">
-                                <span class="card-title but center-align" id="gif">Centro de Desarollo Infantil</span>
+                            <a href="#" target="_blank">
+                                <img class="image" src="assets/images/Taxdoo.png">
                         </div>
                         <div class="card-content" id="newLink">
-                            <a href="https://github.com/nosidam48/CDI" target="_blank">
-                                <p id="oldLink">CDI on Github</p>
+                            <a href="http://www.taxdoo.com/de" target="_blank">
+                                <p id="oldLink">Taxdoo</p>
                         </div>
                     </div>
                 </div>
                 <div class="col s12 m6 pad" id="pad">
-                        <div class="card">
-                            <div class="card-image hoverable">
-                                <a href="https://firefly-scramble.herokuapp.com/" target="_blank">
-                                    <img class="image" id="rock" src="assets/images/Firefly.png">
-                                    <span class="card-title but center-align" id="gif">Firefly Scramble</span>
-                            </div>
-                            <div class="card-content" id="newLink">
-                                <a href="https://github.com/nosidam48/Firefly-Scramble" target="_blank">
-                                    <p id="oldLink">Firefly Scramble on Github</p>
-                            </div>
+                    <div class="card">
+                        <div class="card-image hoverable">
+                            <a href="#" target="_blank">
+                                <img class="image" src="assets/images/Lokalportal.png">
+                        </div>
+                        <div class="card-content" id="newLink">
+                            <a href="https://lokalportal.de" target="_blank">
+                                <p id="oldLink">Lokalportal</p>
                         </div>
                     </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="section">
+        <div id="port" class="container">
+
+            <h4 id="personal-title">Just for Fun (Personal Projects)</h4>
+            <div class="row">
+                <div class="col s12 m6 pad" id="pad">
+                    <div class="card">
+                        <div class="card-image hoverable">
+                            <a href="https://firefly-scramble.herokuapp.com/" target="_blank">
+                                <img class="image" id="rock" src="assets/images/Firefly.png">
+                                <span class="card-title but center-align" id="gif">Firefly Scramble</span>
+                        </div>
+                        <div class="card-content" id="newLink">
+                            <a href="https://github.com/nosidam48/Firefly-Scramble" target="_blank">
+                                <p id="oldLink">Firefly Scramble on Github</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 pad" id="pad">
+                    <div class="card">
+                        <div class="card-image hoverable">
+                            <a href="https://nosidam48.github.io/Simpsons-Trivia-Time/" target="_blank">
+                                <img class="image" id="trivia" src="assets/images/Triva.png">
+                                <span class="card-title but center-align" id="gif">Simpsons Trivia Time</span>
+                        </div>
+                        <div class="card-content" id="newLink">
+                            <a href="https://github.com/nosidam48/Simpsons-Trivia-Time" target="_blank">
+                                <p id="oldLink">Simpsons Trivia Time on Github</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                    <div class="col s12 m6 pad" id="pad">
-                            <div class="card">
-                                <div class="card-image hoverable">
-                                    <a href="https://nosidam48.github.io/Simpsons-Trivia-Time/" target="_blank">
-                                        <img class="image" id="trivia" src="assets/images/Triva.png">
-                                        <span class="card-title but center-align" id="gif">Simpsons Trivia Time</span>
-                                </div>
-                                <div class="card-content" id="newLink">
-                                    <a href="https://github.com/nosidam48/Simpsons-Trivia-Time" target="_blank">
-                                        <p id="oldLink">Simpsons Trivia Time on Github</p>
-                                </div>
-                            </div>
-                        </div>
                 <div class="col s12 m6 pad" id="pad">
                     <div class="card">
                         <div class="card-image hoverable">
@@ -120,36 +140,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6 pad" id="pad">
-                    <div class="card">
-                        <div class="card-image hoverable">
-                            <a href="https://potlucky2019.herokuapp.com/" target="_blank">
-                                <img class="image" id="rutgers" src="assets/images/Potlucky.png">
-                                <span class="card-title but center-align" id="gif">Potlucky</span>
-                        </div>
-                        <div class="card-content" id="newLink">
-                            <a href="https://github.com/nosidam48/Potlucky" target="_blank">
-                                <p id="oldLink">Potlucky on Github</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 pad" id="pad">
-                    <div class="card">
-                        <div class="card-image hoverable">
-                            <a href="https://phriend-phinder.herokuapp.com/" target="_blank">
-                                <img class="image" id="rutgers" src="assets/images/Phriendiphy.png">
-                                <span class="card-title but center-align" id="gif">Phriendiphy</span>
-                        </div>
-                        <div class="card-content" id="newLink">
-                            <a href="https://github.com/nosidam48/Friend-Finder" target="_blank">
-                                <p id="oldLink">Phriendiphy on Github</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col s12 m6 pad" id="pad">
                     <div class="card">
                         <div class="card-image hoverable">
@@ -160,19 +150,6 @@
                         <div class="card-content" id="newLink">
                             <a href="https://github.com/nosidam48/DBZ-Battle-Zone" target="_blank">
                                 <p id="oldLink">DBZ Battle Zone on Github</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 pad" id="pad">
-                    <div class="card">
-                        <div class="card-image hoverable">
-                            <a href="https://nosidam48.github.io/Train-Time/" target="_blank">
-                                <img class="image" id="rutgers" src="assets/images/TrainS.png">
-                                <span class="card-title but center-align" id="gif">Train Time</span>
-                        </div>
-                        <div class="card-content" id="newLink">
-                            <a href="https://github.com/nosidam48/Train-Time" target="_blank">
-                                <p id="oldLink">Train Time on Github</p>
                         </div>
                     </div>
                 </div>
@@ -190,13 +167,13 @@
     <footer class="page-footer docs-footer black">
         <div id="Contact" class="container">
             <div class="container">
-                <h4>Contact</h4>
+                <h4 id="contact-title">Contact</h4>
                 <div class="row">
-                    <div class="data col s12 m6 lg6">madison.tift68@gmail.com</div>
-                    <div class="data col s12 m6 lg6">1-206-271-0774</div>
+                    <div class="data col s12">madison.tift68@gmail.com</div>
+                    <div class="data col s12">+49 151 5600 9148</div>
                 </div>
                 <div class="row">
-                    <div class="col"><a href="http://bit.ly/CV-MadisonTift" class="hoverable" target="_blank">
+                    <div class="col s12" id="resume-col"><a href="assets/Resume.pdf" class="hoverable" target="_blank">
                             <p id="resume">Link to Resume</p>
                     </div>
                 </div>

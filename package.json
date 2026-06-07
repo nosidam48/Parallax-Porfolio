@@ -1,0 +1,16 @@
+{
+  "name": "parallax-portfolio",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "jest-environment-jsdom": "^30.0.0",
+    "jquery": "^3.7.1",
+    "jsdom": "^26.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
